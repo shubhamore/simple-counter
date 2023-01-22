@@ -14,7 +14,7 @@ decrement.addEventListener("click", function () {
     count -= 1
     counterText.textContent = count
 })
-reset.addEventListener("dblclick", function () {
+reset.addEventListener("click", function () {
     count = 0
     counterText.textContent = count
 })
